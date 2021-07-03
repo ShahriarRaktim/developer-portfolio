@@ -11,6 +11,7 @@ span{
 }
 section{
     display: flex;
+    margin-bottom: 300px;
 }
 .half-width{
     width: 50%;
@@ -35,4 +36,9 @@ section{
 }
 .bc{
     background-color: tomato;
+}
+.dream-big{
+    background-image:url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
