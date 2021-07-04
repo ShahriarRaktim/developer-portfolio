@@ -32,13 +32,6 @@ section{
     font-weight: 700;
     color: springgreen;
 }
-.top-banner{
-    background-image: url(image/top-banner.png);
-    background-repeat: no-repeat;
-}
-.bc{
-    background-color: tomato;
-}
 .dream-big{
     background-image:url(image/dream-bg.png);
     background-repeat: no-repeat;
@@ -71,4 +64,12 @@ footer{
 #exp{
     text-align: center;
     color: #420913;
+    box-shadow: 10px 10px 80px  red;
+    margin-left: 38%;
+    margin-right: 38%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border: 50px solid red;
+    border-bottom: 100px solid transparent;
+    background-image: linear-gradient(tomato,red);
 }
