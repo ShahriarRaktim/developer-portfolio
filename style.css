@@ -6,11 +6,13 @@ body{
 h1{
     font-size: 60px;
 }
+h3{
+    color: rgba(20, 221, 121, 0.692);
+}
 span{
     color: blue;
 }
 section{
-    display: flex;
     margin-bottom: 300px;
 }
 .half-width{
@@ -41,4 +43,32 @@ section{
     background-image:url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.flexible-container{
+    display: flex;
+}
+.exprience-item{
+    box-shadow: 10px 10px 50px pink;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px 15px 5px 15px;
+    
+}
+#full-web{
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(hsla(350, 93%, 30%, 0.712),red);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
+#exp{
+    text-align: center;
+    color: #420913;
 }
